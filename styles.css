@@ -268,6 +268,13 @@ h1 {
   color: var(--muted);
 }
 
+.text-link {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .privacy-card,
 .final-card {
   text-align: center;
@@ -287,6 +294,55 @@ h1 {
   padding: 24px 0 38px;
   text-align: center;
   color: var(--muted);
+}
+
+.policy {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.policy-card {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-soft);
+  padding: 30px;
+}
+
+.policy h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.policy-meta {
+  margin-top: 8px;
+  color: var(--muted);
+}
+
+.policy-section {
+  margin-top: 22px;
+}
+
+.policy-section h2 {
+  font-family: Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+}
+
+.policy-section p {
+  margin: 10px 0 0;
+  color: var(--muted);
+}
+
+.policy-list {
+  margin: 10px 0 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.policy-list li + li {
+  margin-top: 6px;
 }
 
 @media (max-width: 920px) {
@@ -321,5 +377,9 @@ h1 {
   .showcase {
     padding: 16px;
     border-radius: 22px;
+  }
+
+  .policy-card {
+    padding: 22px 18px;
   }
 }
