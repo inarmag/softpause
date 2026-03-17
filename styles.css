@@ -273,6 +273,7 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   font-size: 16px;
   font-weight: 700;
   border: 0;
@@ -292,6 +293,16 @@ p {
 .btn-primary {
   background: linear-gradient(135deg, var(--accent-start), var(--accent-end));
   color: #2f251b;
+}
+
+.btn-play {
+  background: linear-gradient(135deg, #93d37a, #4aa95f);
+  color: #173420;
+}
+
+.btn-icon {
+  font-size: 18px;
+  line-height: 1;
 }
 
 .text-link {
