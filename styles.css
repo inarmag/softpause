@@ -13,7 +13,7 @@
   --shadow-soft: 0 14px 38px rgba(44, 35, 28, 0.08);
   --max: 1120px;
   --reading: 520px;
-  --section-y: 96px;
+  --section-y: 88px;
   --section-x: 24px;
   --h1: 64px;
   --h1-lh: 68px;
@@ -158,8 +158,8 @@ h2 {
 }
 
 h1 {
-  font-size: var(--h1);
-  line-height: var(--h1-lh);
+  font-size: clamp(42px, 5.2vw, var(--h1));
+  line-height: clamp(46px, 5.6vw, var(--h1-lh));
 }
 
 h1 span {
@@ -167,8 +167,8 @@ h1 span {
 }
 
 h2 {
-  font-size: var(--h2);
-  line-height: var(--h2-lh);
+  font-size: clamp(26px, 3.2vw, var(--h2));
+  line-height: clamp(32px, 3.8vw, var(--h2-lh));
 }
 
 h3 {
@@ -199,8 +199,8 @@ p {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(300px, 460px);
-  gap: 44px;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 380px);
+  gap: 36px;
   align-items: center;
 }
 
@@ -220,22 +220,23 @@ p {
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .hero-glow {
   position: absolute;
-  width: 380px;
-  height: 380px;
+  width: 320px;
+  height: 320px;
   border-radius: 999px;
   background: radial-gradient(circle at center, rgba(228, 111, 46, 0.24), rgba(228, 111, 46, 0));
   filter: blur(8px);
-  top: 60px;
+  top: 50px;
 }
 
 .phone-shell {
   position: relative;
-  width: min(84vw, 370px);
-  aspect-ratio: 9 / 19.5;
+  width: min(76vw, 320px);
+  aspect-ratio: 9 / 18.8;
   margin: 0;
   border-radius: 56px;
   padding: 12px;
@@ -260,6 +261,7 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   border-radius: 44px;
   display: block;
 }
@@ -340,6 +342,9 @@ p {
 
 .shot-card {
   margin: 0;
+  width: 100%;
+  max-width: 252px;
+  justify-self: center;
   border-radius: var(--radius);
   border: 1px solid var(--line);
   background: var(--surface);
@@ -350,8 +355,9 @@ p {
 .shot-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 9 / 19.5;
+  aspect-ratio: 9 / 16.8;
   object-fit: cover;
+  object-position: top center;
 }
 
 .small-copy {
@@ -504,7 +510,9 @@ p {
 
   .hero {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 28px;
+    justify-items: center;
+    text-align: center;
   }
 
   .hero-copy {
@@ -512,19 +520,19 @@ p {
   }
 
   .hero-actions {
-    align-items: flex-start;
+    align-items: center;
   }
 
   .hero-glow {
-    width: 300px;
-    height: 300px;
-    top: 40px;
+    width: 250px;
+    height: 250px;
+    top: 24px;
   }
 
   .phone-shell {
-    width: min(84vw, 340px);
-    border-radius: 48px;
-    padding: 10px;
+    width: min(66vw, 280px);
+    border-radius: 44px;
+    padding: 9px;
   }
 
   .phone-shell::before {
@@ -533,13 +541,26 @@ p {
   }
 
   .phone-shell img {
-    border-radius: 38px;
+    border-radius: 34px;
   }
 
-  .steps-grid,
-  .shot-grid {
+  .steps-grid {
     grid-template-columns: 1fr;
     gap: 16px;
+  }
+
+  .shot-grid {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .shot-card {
+    flex: 0 0 210px;
+    max-width: 210px;
+    scroll-snap-align: start;
   }
 
   .support-title {
