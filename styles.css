@@ -367,6 +367,14 @@ p {
   color: var(--muted);
 }
 
+.download-actions {
+  margin-top: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
 .section-support {
   padding-top: 44px;
   padding-bottom: 72px;
