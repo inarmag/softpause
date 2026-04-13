@@ -6,7 +6,7 @@
     <title>SoftPause — Pause. One breath is enough.</title>
     <meta
       name="description"
-      content="SoftPause is a gentle breathing app for moments that feel too loud. One breath, one clear action, private by design."
+      content="SoftPause is a gentle breathing app with a plant that grows with you. One breath, one clear action, private by design."
     />
     <link rel="canonical" href="https://softpause.app/" />
     <meta property="og:type" content="website" />
@@ -16,10 +16,13 @@
       content="Pause. One breath is enough."
     />
     <meta property="og:url" content="https://softpause.app/" />
-    <meta property="og:image" content="https://softpause.app/assets/logo.png" />
+    <meta
+      property="og:image"
+      content="https://softpause.app/assets/og-preview.png"
+    />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#F6F2EE" />
-    <link rel="icon" href="/assets/logo.png" />
+    <link rel="icon" href="/assets/favicon.png" />
     <link rel="stylesheet" href="/styles.css" />
     <script type="application/ld+json">
       {
@@ -29,7 +32,7 @@
         "applicationCategory": "HealthApplication",
         "operatingSystem": "iOS, Android",
         "url": "https://softpause.app/",
-        "description": "A gentle breathing app for moments that feel too loud.",
+        "description": "A gentle breathing app with a plant that grows with you.",
         "offers": {
           "@type": "Offer",
           "price": "0",
@@ -60,8 +63,9 @@
             <span>Pause.</span>
             <span>One breath is enough.</span>
           </h1>
-          <p class="lead">A gentle breathing app for moments that feel too loud.</p>
+          <p class="lead">A gentle breathing app with a plant that grows with you.</p>
           <div class="hero-actions">
+            <!-- TODO: Replace with actual App Store URL after publish -->
             <a class="btn btn-primary" href="https://apps.apple.com" target="_blank" rel="noreferrer">
               <span class="btn-icon" aria-hidden="true"></span>
               <span>Download on the App Store</span>
@@ -77,7 +81,7 @@
         <div class="hero-visual" aria-hidden="true">
           <div class="hero-glow"></div>
           <figure class="phone-shell">
-            <img src="/assets/screenshots/04-pause.png" alt="SoftPause breathing screen" />
+            <img src="/assets/screenshots/home-plant.png" alt="SoftPause home screen showing growing plant and breathing button" />
           </figure>
         </div>
       </section>
@@ -85,6 +89,7 @@
       <section class="section section-soft" aria-labelledby="feel-title">
         <div class="container">
           <h2 id="feel-title" class="center">A quiet reset</h2>
+          <p class="center lead narrow">A gentle breathing app for moments that feel too loud.</p>
           <div class="steps-grid">
             <article class="step-card">
               <p class="step-dot">01</p>
@@ -105,6 +110,29 @@
         </div>
       </section>
 
+      <section class="section" aria-labelledby="growth-title">
+        <div class="container">
+          <h2 id="growth-title" class="center">Your growth, visualized</h2>
+          <p class="center lead narrow">
+            A small plant grows with every pause. Its health reflects your mood, never judging, always growing.
+          </p>
+          <div class="growth-grid" role="list" aria-label="Plant growth stages">
+            <article class="growth-card" role="listitem">
+              <img src="/assets/plant-seed.svg" alt="Seed stage of the SoftPause growth plant" />
+              <h3>Seed</h3>
+            </article>
+            <article class="growth-card" role="listitem">
+              <img src="/assets/plant-seedling.svg" alt="Seedling stage of the SoftPause growth plant" />
+              <h3>Seedling</h3>
+            </article>
+            <article class="growth-card" role="listitem">
+              <img src="/assets/plant-flourishing.svg" alt="Flourishing stage of the SoftPause growth plant" />
+              <h3>Flourishing</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section class="section" aria-labelledby="diff-title">
         <div class="container">
           <h2 id="diff-title" class="center">Built to reduce friction, not add it</h2>
@@ -114,13 +142,13 @@
 
           <div class="shot-grid" role="list" aria-label="SoftPause screenshots">
             <figure class="shot-card" role="listitem">
-              <img src="/assets/screenshots/03-home.png" alt="SoftPause home screen" />
+              <img src="/assets/screenshots/home-plant.png" alt="SoftPause home screen with a growing plant and pause button" />
             </figure>
             <figure class="shot-card" role="listitem">
-              <img src="/assets/screenshots/04-pause.png" alt="SoftPause breathing screen" />
+              <img src="/assets/screenshots/breathing-circle.png" alt="SoftPause breathing screen with guided inhale and exhale prompts" />
             </figure>
             <figure class="shot-card" role="listitem">
-              <img src="/assets/screenshots/02-onboarding-reminders.png" alt="SoftPause reminders setup" />
+              <img src="/assets/screenshots/history-7day-trends.png" alt="SoftPause history screen with last 7 days strip and mood trends" />
             </figure>
           </div>
         </div>
@@ -132,6 +160,9 @@
           <p class="lead">
             SoftPause works without accounts. Your preferences stay on your device. Anonymous usage analytics help improve the app and can be turned off anytime in settings.
           </p>
+          <p class="lead">
+            Track your mood trends over time and see whether breathing is helping. Your data stays on your device.
+          </p>
           <p><a class="text-link" href="/privacy/">Read the full privacy policy</a></p>
         </div>
       </section>
@@ -140,6 +171,7 @@
         <div class="container narrow center">
           <h2 id="download-title">Download SoftPause</h2>
           <div class="download-actions">
+            <!-- TODO: Replace with actual App Store URL after publish -->
             <a class="btn btn-primary" href="https://apps.apple.com" target="_blank" rel="noreferrer">
               <span class="btn-icon" aria-hidden="true"></span>
               <span>Download on the App Store</span>
