@@ -408,6 +408,20 @@ p {
   aspect-ratio: 9 / 16.8;
   object-fit: cover;
   object-position: top center;
+  transition: transform 220ms ease, object-position 220ms ease;
+}
+
+.shot-card--onboarding img {
+  object-position: top center;
+}
+
+.shot-card--breathing img {
+  object-position: center 12%;
+  transform: scale(1.09);
+}
+
+.shot-card--history img {
+  object-position: top center;
 }
 
 .small-copy {
