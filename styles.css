@@ -254,6 +254,17 @@ p {
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .phone-shell {
+    animation: none;
+  }
+
+  .btn,
+  .shot-card img {
+    transition: none;
+  }
+}
+
 .phone-shell::before {
   content: '';
   position: absolute;

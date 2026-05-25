@@ -39,20 +39,34 @@
     <main class="section">
       <article class="policy-layout container narrow">
         <h1>Privacy Policy</h1>
-        <p class="policy-meta">Last updated: March 17, 2026</p>
+        <p class="policy-meta">Last updated: May 25, 2026</p>
 
         <section class="policy-block">
           <h2>Overview</h2>
           <p>
             SoftPause is designed to work without accounts and without requiring personal information.
+            Everything you do in the app — your pauses, your mood check-ins, your plant — stays on your device.
           </p>
         </section>
 
         <section class="policy-block">
           <h2>Data stored on your device</h2>
           <p>
-            SoftPause stores your preferences locally on your device. This may include language, reminders, breathing settings, appearance preferences, and analytics preference.
-            This data is not sent to a server.
+            SoftPause stores the following information locally on your device only. None of it is sent to a server.
+          </p>
+          <ul>
+            <li>Your chosen name (if you entered one during onboarding)</li>
+            <li>Language preference (English, French, or Arabic)</li>
+            <li>Reminders, reminder times, and notification preferences</li>
+            <li>Breathing pace preference (calm, balanced, short)</li>
+            <li>Appearance and haptics preferences</li>
+            <li>Analytics opt-in preference</li>
+            <li>Pause history — timestamps, optional mood check-in (calm, okay, stressed), and pause duration</li>
+            <li>Plant growth stage (a count-based local view of your progress)</li>
+          </ul>
+          <p>
+            All of this data lives in your device's local storage and is removed when you uninstall the app.
+            You can also delete everything at any time from Settings → "Delete all my data".
           </p>
         </section>
 
@@ -60,27 +74,48 @@
           <h2>Analytics</h2>
           <p>
             SoftPause uses PostHog to collect anonymous usage analytics to improve the app.
-            These analytics may include events such as:
+            Analytics are <strong>off by default</strong> and only run if you explicitly enable them in Settings.
+            When enabled, events may include:
           </p>
           <ul>
-            <li>app opens</li>
-            <li>breathing session starts</li>
-            <li>breathing session completions</li>
+            <li>app opens and onboarding completion</li>
+            <li>breathing session starts and completions (with breathing pace and duration in seconds)</li>
+            <li>mood check-in outcome (calm / okay / stressed) — never tied to identity</li>
             <li>reminder enable / disable events</li>
             <li>settings interactions</li>
           </ul>
           <p>
-            Analytics do not intentionally include your name, email address, or directly identifying personal information.
+            Analytics do not include your name, email address, contact information, or directly identifying personal information.
+            Analytics can be turned off anytime in Settings → Privacy.
           </p>
+        </section>
+
+        <section class="policy-block">
+          <h2>Your rights and choices</h2>
           <p>
-            Analytics can be turned off anytime in app settings.
+            Because SoftPause does not have accounts or a server, you stay in control of your data:
           </p>
+          <ul>
+            <li><strong>Access:</strong> all your data is visible inside the app (History, Settings).</li>
+            <li><strong>Export:</strong> you can request an export of your local data by contacting us at the address below.</li>
+            <li><strong>Deletion:</strong> use Settings → "Delete all my data" to permanently erase everything from your device, or simply uninstall the app.</li>
+            <li><strong>Withdraw analytics consent:</strong> Settings → Privacy → toggle analytics off.</li>
+          </ul>
         </section>
 
         <section class="policy-block">
           <h2>Notifications</h2>
           <p>
-            Reminder notifications are scheduled locally on your device.
+            Reminder notifications are scheduled locally on your device by iOS or Android.
+            SoftPause does not send push notifications from a server and does not see when reminders fire.
+          </p>
+        </section>
+
+        <section class="policy-block">
+          <h2>Children's privacy</h2>
+          <p>
+            SoftPause is intended for users aged 13 and older. We do not knowingly collect data from children under 13.
+            If you believe a child has provided personal information through SoftPause, please contact us and we will help remove it.
           </p>
         </section>
 
