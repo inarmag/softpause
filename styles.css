@@ -669,3 +669,21 @@ p {
     line-height: 38px;
   }
 }
+
+/* ── softPause. wordmark composition ─────────────────────────────────
+   Matches the in-app <Brandmark /> recipe: italic-soft + bold-Pause.
+   Applied to the hero h1 only; the nav brand keeps its own .brand
+   class with a single weight. */
+.wordmark {
+  font-family: Newsreader, Georgia, serif;
+  letter-spacing: -0.02em;
+  display: inline-block;
+}
+.wordmark em {
+  font-style: italic;
+  font-weight: 400;
+}
+.wordmark strong {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
