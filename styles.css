@@ -401,6 +401,35 @@ p {
   gap: 24px;
 }
 
+/* Branded marketing graphics — same as the App Store gallery.
+   These already carry their own visual chrome (sun-disc, headline,
+   sub) so they are NOT wrapped in phone-shell or card chrome — the
+   image is shown at its full 9:19.5 aspect with a subtle shadow. */
+.brand-grid {
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.brand-card {
+  margin: 0;
+  width: 100%;
+  max-width: 320px;
+  justify-self: center;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.08);
+}
+
+.brand-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1290 / 2796;
+  object-fit: cover;
+}
+
 .shot-card {
   margin: 0;
   width: 100%;
@@ -652,6 +681,22 @@ p {
   .shot-card {
     flex: 0 0 210px;
     max-width: 210px;
+    scroll-snap-align: start;
+  }
+
+  /* Branded gallery — same horizontal scroll pattern on mobile so
+     the 9:19.5 cards don't stack into a tall single column. */
+  .brand-grid {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .brand-card {
+    flex: 0 0 230px;
+    max-width: 230px;
     scroll-snap-align: start;
   }
 
