@@ -88,14 +88,14 @@ a {
   width: 520px;
   height: 520px;
   top: -280px;
-  left: -160px;
+  inset-inline-start: -160px;
   background: radial-gradient(circle at center, rgba(244, 201, 119, 0.28), rgba(244, 201, 119, 0));
 }
 
 .ambient-bottom {
   width: 620px;
   height: 620px;
-  right: -320px;
+  inset-inline-end: -320px;
   bottom: -260px;
   background: radial-gradient(circle at center, rgba(228, 111, 46, 0.2), rgba(228, 111, 46, 0));
 }
@@ -316,6 +316,8 @@ p {
   color: #2f251b;
 }
 
+/* Currently unused - the Google Play CTA is hidden on the landing pages.
+   Kept so restoring the button is a markup-only change. */
 .btn-play {
   background: linear-gradient(135deg, #dbe8d6, #b8cfaf);
   color: #2b3a2a;
@@ -538,7 +540,7 @@ p {
 }
 
 .policy-block ul {
-  padding-left: 22px;
+  padding-inline-start: 22px;
 }
 
 .policy-block li + li {
@@ -592,7 +594,7 @@ p {
 
 .article ul,
 .article ol {
-  padding-left: 22px;
+  padding-inline-start: 22px;
 }
 
 @media (max-width: 900px) {
@@ -731,4 +733,225 @@ p {
 .wordmark strong {
   font-weight: 700;
   letter-spacing: -0.03em;
+}
+
+/* ── Accessibility: skip link + visible focus ──────────────────────── */
+.skip-link {
+  position: absolute;
+  inset-inline-start: -9999px;
+  top: 8px;
+  z-index: 50;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  inset-inline-start: 16px;
+}
+
+a:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid var(--accent-end);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* ── Header right cluster + language switcher ──────────────────────── */
+.nav {
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  padding-block: 10px;
+}
+
+.nav-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.lang-switch a:hover {
+  color: var(--text);
+}
+
+.lang-current {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--accent-end);
+  text-decoration-thickness: 2px;
+}
+
+.lang-sep {
+  opacity: 0.4;
+}
+
+/* ── Blog index ───────────────────────────────────────────────────── */
+.blog-head {
+  margin-bottom: 8px;
+}
+
+.blog-head h1 {
+  font-size: clamp(38px, 5vw, 56px);
+  line-height: 1.08;
+}
+
+.list-group-title {
+  margin-top: 46px;
+  margin-bottom: 4px;
+  font-family: Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: var(--small);
+  line-height: var(--small-lh);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.post-list {
+  margin-top: 10px;
+  display: grid;
+  gap: 0;
+  max-width: 760px;
+}
+
+.post-item {
+  display: grid;
+  gap: 8px;
+  padding-block: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.post-item:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.post-item h3 {
+  font-family: Newsreader, Georgia, serif;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.post-item h3 a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.post-meta {
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.post-excerpt {
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 62ch;
+}
+
+/* ── Article extras (blog posts + guides) ─────────────────────────── */
+.article-meta {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.article-more {
+  margin-top: 22px;
+}
+
+.post-cta {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+/* ── Arabic / RTL ─────────────────────────────────────────────────── */
+[dir='rtl'] body {
+  font-family: Tajawal, 'IBM Plex Sans Arabic', 'Noto Sans Arabic', -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+[dir='rtl'] h1,
+[dir='rtl'] h2,
+[dir='rtl'] .post-item h3 {
+  font-family: Amiri, 'Noto Naskh Arabic', Georgia, serif;
+  letter-spacing: 0;
+}
+
+[dir='rtl'] h3,
+[dir='rtl'] .brand,
+[dir='rtl'] .support-title,
+[dir='rtl'] .policy-block h2,
+[dir='rtl'] .list-group-title {
+  font-family: Tajawal, 'IBM Plex Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: 0;
+}
+
+/* Latin wordmark keeps its own face inside RTL pages. */
+[dir='rtl'] .wordmark,
+[dir='rtl'] .brand {
+  font-family: Newsreader, Georgia, serif;
+}
+
+[dir='rtl'] .brand {
+  font-weight: 600;
+}
+
+/* Arabic runs taller than Latin — give it a little more room. */
+[dir='rtl'] h1 {
+  line-height: 1.35;
+}
+
+[dir='rtl'] h2 {
+  line-height: 1.45;
+}
+
+[dir='rtl'] .eyebrow,
+[dir='rtl'] .post-meta,
+[dir='rtl'] .article-meta {
+  letter-spacing: 0;
+}
+
+[dir='rtl'] .back-link::before {
+  content: '→';
+  margin-inline-end: 6px;
+}
+
+[dir='ltr'] .back-link::before {
+  content: '←';
+  margin-inline-end: 6px;
+}
+
+@media (max-width: 560px) {
+  .nav-download {
+    display: none;
+  }
+
+  .nav-links {
+    gap: 14px;
+  }
+
+  .nav-right {
+    gap: 14px;
+  }
 }
