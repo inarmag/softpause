@@ -1,25 +1,23 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>softPause — Pause. One breath is enough.</title>
-    <meta
-      name="description"
-      content="softPause is a gentle breathing app with a plant that grows with you. One breath, one clear action, private by design."
-    />
+    <meta name="description" content="softPause is a gentle breathing app with a plant that grows with you. One breath, one clear action, private by design." />
     <link rel="canonical" href="https://softpause.app/" />
+    <link rel="alternate" hreflang="en" href="https://softpause.app/" />
+    <link rel="alternate" hreflang="fr" href="https://softpause.app/fr/" />
+    <link rel="alternate" hreflang="ar" href="https://softpause.app/ar/" />
+    <link rel="alternate" hreflang="x-default" href="https://softpause.app/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="softPause" />
-    <meta
-      property="og:description"
-      content="Pause. One breath is enough."
-    />
+    <meta property="og:title" content="softPause — Pause. One breath is enough." />
+    <meta property="og:description" content="Pause. One breath is enough." />
     <meta property="og:url" content="https://softpause.app/" />
-    <meta
-      property="og:image"
-      content="https://softpause.app/assets/og-preview.png"
-    />
+    <meta property="og:image" content="https://softpause.app/assets/og-preview.png" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="ar_AR" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#F6F2EE" />
     <link rel="icon" href="/assets/favicon.png" />
@@ -30,52 +28,52 @@
         "@type": "SoftwareApplication",
         "name": "softPause",
         "applicationCategory": "HealthApplication",
-        "operatingSystem": "iOS, Android",
+        "operatingSystem": "iOS",
         "url": "https://softpause.app/",
-        "description": "A gentle breathing app with a plant that grows with you.",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        }
+        "installUrl": "https://apps.apple.com/app/id6760224574",
+        "inLanguage": ["en", "fr", "ar"],
+        "description": "softPause is a gentle breathing app with a plant that grows with you. One breath, one clear action, private by design.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
       }
     </script>
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <div class="ambient ambient-top" aria-hidden="true"></div>
     <div class="ambient ambient-bottom" aria-hidden="true"></div>
 
     <header class="site-header">
       <nav class="container nav">
-        <a class="brand" href="/">softPause</a>
-        <div class="nav-links">
-          <a href="/privacy/">Privacy</a>
-          <a href="#download">Download</a>
+        <a class="brand" href="/" dir="ltr">softPause</a>
+        <div class="nav-right">
+          <div class="nav-links">
+            <a href="/blog/">Blog</a>
+            <a href="/privacy/">Privacy</a>
+            <a class="nav-download" href="/#download">Download</a>
+          </div>
+          <div class="lang-switch" role="group" aria-label="Language"><span class="lang-current" aria-current="true" lang="en">EN</span><span class="lang-sep" aria-hidden="true">·</span><a href="/fr/" hreflang="fr" lang="fr" title="Français">FR</a><span class="lang-sep" aria-hidden="true">·</span><a href="/ar/" hreflang="ar" lang="ar" title="العربية">عربي</a></div>
         </div>
       </nav>
     </header>
 
-    <main>
+    <main id="main">
       <section class="container hero section" id="top">
         <div class="hero-copy">
           <p class="eyebrow">A pause button for real life</p>
           <h1>
-          <span class="wordmark"><em>soft</em><strong>Pause.</strong></span>
+            <span class="wordmark" dir="ltr"><em>soft</em><strong>Pause.</strong></span>
             <span>One breath is enough.</span>
           </h1>
           <p class="lead">A gentle breathing app with a plant that grows with you.</p>
           <div class="hero-actions">
-            <!-- TODO: Replace with actual App Store URL after publish -->
-            <a class="btn btn-primary" href="https://apps.apple.com" target="_blank" rel="noreferrer">
-              <span class="btn-icon" aria-hidden="true"></span>
+            <a class="btn btn-primary" href="https://apps.apple.com/app/id6760224574" target="_blank" rel="noreferrer">
+              <span class="btn-icon" aria-hidden="true"></span>
               <span>Download on the App Store</span>
-            </a>
-            <a class="btn btn-play" href="https://play.google.com/store/apps/details?id=com.inarmag.Pause" target="_blank" rel="noreferrer">
-              <span class="btn-icon" aria-hidden="true">▶</span>
-              <span>Android: Google Play</span>
             </a>
             <a class="text-link" href="/privacy/">Read privacy policy</a>
           </div>
+          <!-- Google Play CTA intentionally hidden. To restore, re-add:
+               <a class="btn btn-play" href="https://play.google.com/store/apps/details?id=com.inarmag.Pause" target="_blank" rel="noreferrer">…</a> -->
         </div>
 
         <div class="hero-visual" aria-hidden="true">
@@ -113,10 +111,8 @@
       <section class="section" aria-labelledby="growth-title">
         <div class="container">
           <h2 id="growth-title" class="center">Your growth, visualized</h2>
-          <p class="center lead narrow">
-            A small plant grows with every pause. Its health reflects your mood, never judging, always growing.
-          </p>
-          <div class="growth-grid" role="list" aria-label="Plant growth stages">
+          <p class="center lead narrow">A small plant grows with every pause. Its health reflects your mood, never judging, always growing.</p>
+          <div class="growth-grid" role="list">
             <article class="growth-card" role="listitem">
               <img src="/assets/plant-seed.svg" alt="Seed stage of the softPause growth plant" />
               <h3>Seed</h3>
@@ -136,11 +132,8 @@
       <section class="section" aria-labelledby="diff-title">
         <div class="container">
           <h2 id="diff-title" class="center">Built to reduce friction, not add it</h2>
-          <p class="center lead narrow">
-            No streaks. No pressure. No content to scroll. Just a gentle pause when you need one.
-          </p>
-
-          <div class="shot-grid" role="list" aria-label="softPause screenshots">
+          <p class="center lead narrow">No pressure. No guilt. No content to scroll. Just a gentle pause when you need one.</p>
+          <div class="shot-grid" role="list">
             <figure class="shot-card shot-card--onboarding" role="listitem">
               <img src="/assets/screenshots/landing-onboarding-2026.png" alt="softPause onboarding screen with language and name setup" />
             </figure>
@@ -157,22 +150,16 @@
       <section class="section" aria-labelledby="brand-gallery-title">
         <div class="container">
           <h2 id="brand-gallery-title" class="center">Inside softPause</h2>
-          <p class="center lead narrow">
-            Three glimpses — the plant that grows with you, the
-            twenty-second breath, and your pauses gently counted.
-          </p>
-          <div class="brand-grid" role="list" aria-label="softPause marketing graphics">
+          <p class="center lead narrow">Three glimpses — the plant that grows with you, the twenty-second breath, and your pauses gently counted.</p>
+          <div class="brand-grid" role="list">
             <figure class="brand-card" role="listitem">
-              <img src="/assets/branded/home.png"
-                   alt="softPause home screen with lotus plant and Pause now button — Your growth, gently." />
+              <img src="/assets/branded/home.png" alt="softPause home screen with lotus plant and Pause now button — Your growth, gently." />
             </figure>
             <figure class="brand-card" role="listitem">
-              <img src="/assets/branded/pause.png"
-                   alt="softPause guided breathing orb mid-cycle — One breath is enough." />
+              <img src="/assets/branded/pause.png" alt="softPause guided breathing orb mid-cycle — One breath is enough." />
             </figure>
             <figure class="brand-card" role="listitem">
-              <img src="/assets/branded/history.png"
-                   alt="softPause history screen with pause count, streaks and mood trends — Every pause counts." />
+              <img src="/assets/branded/history.png" alt="softPause history screen with pause count, streaks and mood trends — Every pause counts." />
             </figure>
           </div>
         </div>
@@ -181,12 +168,8 @@
       <section class="section section-soft" aria-labelledby="privacy-title">
         <div class="container narrow center">
           <h2 id="privacy-title">Private by design</h2>
-          <p class="lead">
-            softPause works without accounts. Your preferences stay on your device. Anonymous usage analytics help improve the app and can be turned off anytime in settings.
-          </p>
-          <p class="lead">
-            Track your mood trends over time and see whether breathing is helping. Your data stays on your device.
-          </p>
+          <p class="lead">softPause works without accounts. Your preferences stay on your device. Anonymous usage analytics help improve the app and can be turned off anytime in settings.</p>
+          <p class="lead">Track your mood trends over time and see whether breathing is helping. Your data stays on your device.</p>
           <p><a class="text-link" href="/privacy/">Read the full privacy policy</a></p>
         </div>
       </section>
@@ -195,16 +178,12 @@
         <div class="container narrow center">
           <h2 id="download-title">Download softPause</h2>
           <div class="download-actions">
-            <!-- TODO: Replace with actual App Store URL after publish -->
-            <a class="btn btn-primary" href="https://apps.apple.com" target="_blank" rel="noreferrer">
-              <span class="btn-icon" aria-hidden="true"></span>
+            <a class="btn btn-primary" href="https://apps.apple.com/app/id6760224574" target="_blank" rel="noreferrer">
+              <span class="btn-icon" aria-hidden="true"></span>
               <span>Download on the App Store</span>
             </a>
-            <a class="btn btn-play" href="https://play.google.com/store/apps/details?id=com.inarmag.Pause" target="_blank" rel="noreferrer">
-              <span class="btn-icon" aria-hidden="true">▶</span>
-              <span>Android: Google Play</span>
-            </a>
           </div>
+          <p class="small-copy">Free. No account. Works offline.</p>
         </div>
       </section>
 
@@ -217,10 +196,11 @@
     </main>
 
     <footer class="container footer">
+      <a href="/blog/">Blog</a>
       <a href="/privacy/">Privacy</a>
-      <a href="#support">Support</a>
-      <a href="mailto:velvet.osiris@gmail.com">velvet.osiris@gmail.com</a>
-      <span>© <span id="year"></span> softPause</span>
+      <a href="/#support">Support</a>
+      <a href="mailto:velvet.osiris@gmail.com" dir="ltr">velvet.osiris@gmail.com</a>
+      <span dir="ltr">© <span id="year"></span> softPause</span>
     </footer>
 
     <script>

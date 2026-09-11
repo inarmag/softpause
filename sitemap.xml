@@ -1,18 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://softpause.app/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/"/>
   </url>
   <url>
-    <loc>https://softpause.app/breathing/</loc>
+    <loc>https://softpause.app/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/"/>
   </url>
   <url>
-    <loc>https://softpause.app/anxiety/</loc>
-  </url>
-  <url>
-    <loc>https://softpause.app/reset/</loc>
+    <loc>https://softpause.app/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/"/>
   </url>
   <url>
     <loc>https://softpause.app/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/fr/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/ar/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/blog/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/fr/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/blog/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/ar/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/blog/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/blog/ios-launch/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/blog/ios-launch/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/blog/ios-launch/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/blog/ios-launch/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/blog/ios-launch/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/fr/blog/ios-launch/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/blog/ios-launch/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/blog/ios-launch/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/blog/ios-launch/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/blog/ios-launch/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/ar/blog/ios-launch/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/blog/ios-launch/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/blog/ios-launch/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/blog/ios-launch/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/blog/ios-launch/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/blog/no-account/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/blog/no-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/blog/no-account/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/blog/no-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/blog/no-account/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/fr/blog/no-account/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/blog/no-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/blog/no-account/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/blog/no-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/blog/no-account/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/ar/blog/no-account/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/blog/no-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/blog/no-account/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/blog/no-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/blog/no-account/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/breathing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/breathing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/breathing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/breathing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/breathing/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/fr/breathing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/breathing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/breathing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/breathing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/breathing/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/ar/breathing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/breathing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/breathing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/breathing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/breathing/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/anxiety/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/anxiety/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/anxiety/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/anxiety/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/anxiety/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/fr/anxiety/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/anxiety/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/anxiety/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/anxiety/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/anxiety/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/ar/anxiety/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/anxiety/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/anxiety/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/anxiety/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/anxiety/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/reset/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/reset/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/reset/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/reset/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/reset/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/fr/reset/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/reset/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/reset/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/reset/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/reset/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/ar/reset/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/reset/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/reset/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/reset/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/reset/"/>
   </url>
 </urlset>
