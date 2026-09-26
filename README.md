@@ -17,12 +17,13 @@ load their own Arabic typefaces.
 index.html                   en  landing page
 fr/  ar/                     fr / ar landing pages
 privacy/                     en  privacy policy   (+ fr/privacy/, ar/privacy/)
+terms/                       en  terms of use     (+ fr/terms/,   ar/terms/)
 blog/                        en  blog index       (+ fr/blog/,    ar/blog/)
 blog/<slug>/                 en  blog post        (+ fr/...,      ar/...)
 breathing/ anxiety/ reset/   en  evergreen guides (+ fr/...,      ar/...)
 styles.css                   shared styles for every page
 assets/                      logo, plant SVGs, screenshots
-sitemap.xml  robots.txt      all 24 URLs, with hreflang alternates
+sitemap.xml  robots.txt      all 27 URLs, with hreflang alternates
 CNAME                        custom domain for GitHub Pages
 ```
 
