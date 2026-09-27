@@ -24,6 +24,7 @@ breathing/ anxiety/ reset/   en  evergreen guides (+ fr/...,      ar/...)
 styles.css                   shared styles for every page
 assets/                      logo, plant SVGs, screenshots
 sitemap.xml  robots.txt      all 27 URLs, with hreflang alternates
+experiments.json             the app's A/B test config (see below)
 CNAME                        custom domain for GitHub Pages
 ```
 
@@ -75,3 +76,12 @@ Then in GitHub Pages settings:
 
 - set custom domain to `softpause.app`
 - enable `Enforce HTTPS` when certificate is ready.
+
+## experiments.json
+
+The app downloads `https://softpause.app/experiments.json` to decide which
+A/B tests run (see the app repo's `docs/AB_TESTING.md`). The master copy is
+`docs/experiments/experiments.json` in the app repo: change it there, then
+copy it here. The download carries nothing about the person. A test runs
+only while its `status` is `"on"`; with every test `"off"`, every install
+sees each test's default.
