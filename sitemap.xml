@@ -65,6 +65,27 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/terms/"/>
   </url>
   <url>
+    <loc>https://softpause.app/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/support/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/fr/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/support/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/ar/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/support/"/>
+  </url>
+  <url>
     <loc>https://softpause.app/blog/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/blog/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/blog/"/>
