@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>softPause — Pause. One breath is enough.</title>
-    <meta name="description" content="softPause is a gentle breathing app with a plant that grows with you. One breath, one clear action, private by design." />
+    <title>softPause — One breath first.</title>
+    <meta name="description" content="Say how strong it is. softPause picks the breath and the timing. Try one breath right here: three sighs, about 30 seconds. No account, works offline." />
     <link rel="canonical" href="https://softpause.app/" />
     <link rel="alternate" hreflang="en" href="https://softpause.app/" />
     <link rel="alternate" hreflang="fr" href="https://softpause.app/fr/" />
     <link rel="alternate" hreflang="ar" href="https://softpause.app/ar/" />
     <link rel="alternate" hreflang="x-default" href="https://softpause.app/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="softPause — Pause. One breath is enough." />
-    <meta property="og:description" content="Pause. One breath is enough." />
+    <meta property="og:title" content="softPause — One breath first." />
+    <meta property="og:description" content="Say how strong it is. softPause picks the breath and the timing." />
     <meta property="og:url" content="https://softpause.app/" />
     <meta property="og:image" content="https://softpause.app/assets/og-preview.png" />
     <meta property="og:locale" content="en_US" />
@@ -32,10 +32,11 @@
         "url": "https://softpause.app/",
         "installUrl": "https://apps.apple.com/app/id6760224574",
         "inLanguage": ["en", "fr", "ar"],
-        "description": "softPause is a gentle breathing app with a plant that grows with you. One breath, one clear action, private by design.",
+        "description": "Say how strong it is. softPause picks the breath and the timing. No account, works offline.",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
       }
     </script>
+    <script src="/assets/sigh.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -57,140 +58,143 @@
     </header>
 
     <main id="main">
-      <section class="container hero section" id="top">
+      <section class="container hero hero--sigh section" id="top" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">A pause button for real life</p>
-          <h1>
+          <p class="eyebrow">A breathing app for when it gets strong</p>
+          <h1 id="hero-title">
             <span class="wordmark" dir="ltr"><em>soft</em><strong>Pause.</strong></span>
-            <span>One breath is enough.</span>
+            <span>One breath first.</span>
           </h1>
-          <p class="lead">A gentle breathing app with a plant that grows with you.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="https://apps.apple.com/app/id6760224574" target="_blank" rel="noreferrer">
-              <span class="btn-icon" aria-hidden="true"></span>
-              <span>Download on the App Store</span>
-            </a>
-            <a class="text-link" href="/privacy/">Read privacy policy</a>
-          </div>
-          <!-- Google Play CTA intentionally hidden. To restore, re-add:
-               <a class="btn btn-play" href="https://play.google.com/store/apps/details?id=com.inarmag.Pause" target="_blank" rel="noreferrer">…</a> -->
+          <p class="lead">Here is the breath softPause gives everyone, free, always: three sighs. In through your nose, a little more on top, then a long, slow breath out. About 30 seconds.</p>
         </div>
 
-        <div class="hero-visual" aria-hidden="true">
-          <div class="hero-glow"></div>
-          <figure class="phone-shell">
-            <img src="/assets/screenshots/landing-home-2026.png" alt="softPause home screen with the Pause action, growing plant, and weekly summary" />
-          </figure>
+        <div class="sigh" data-sigh
+          data-label-inhale="In"
+          data-label-top-up="More"
+          data-label-exhale="Out"
+          data-label-done="That’s one."
+          data-breath-of="Breath {i} of {n}"
+          data-stop="Stop"
+          data-again="Breathe again"
+          data-claim="Lighter after {k} of {n} pauses">
+          <div class="sigh-progress" aria-hidden="true"></div>
+          <div class="sigh-stage" aria-hidden="true"><div class="sigh-orb"></div></div>
+          <p class="sigh-label" aria-live="polite">Whenever you’re ready.</p>
+          <p class="sigh-count">3 breaths · 27 seconds</p>
+          <button type="button" class="btn btn-primary sigh-button">Try one breath</button>
+          <p class="sigh-vibrate-note" hidden>Your phone gives a soft pulse at each change, so you can close your eyes.</p>
+
+          <div class="sigh-after" hidden>
+            <figure class="sigh-demo" tabindex="-1" aria-labelledby="sigh-claim">
+              <p class="sigh-badge">Example record</p>
+              <p class="sigh-claim" id="sigh-claim"></p>
+              <div class="sigh-chart-slot"></div>
+              <figcaption>A made-up record, to show the idea: each line is one pause, from a ring where it started to a dot where it ended. Your own record stays on your phone.</figcaption>
+            </figure>
+            <p class="sigh-question">In the app, every pause starts and ends with the same one question: <q>How do you feel right now?</q> Your two answers, on the same scale, are your before → after.</p>
+            <div class="download-actions">
+              <a class="btn btn-primary" href="https://apps.apple.com/app/id6760224574" target="_blank" rel="noreferrer">
+                <span class="btn-icon" aria-hidden="true"></span>
+                <span>Download on the App Store</span>
+              </a>
+            </div>
+            <p class="small-copy">Free. No account. Works offline.</p>
+          </div>
         </div>
+        <!-- Google Play CTA intentionally hidden. To restore, re-add:
+             <a class="btn btn-play" href="https://play.google.com/store/apps/details?id=com.inarmag.Pause" target="_blank" rel="noreferrer">…</a> -->
       </section>
 
-      <section class="section section-soft" aria-labelledby="feel-title">
+      <section class="section section-soft" aria-labelledby="how-title">
         <div class="container">
-          <h2 id="feel-title" class="center">A quiet reset</h2>
-          <p class="center lead narrow">A gentle breathing app for moments that feel too loud.</p>
-          <div class="steps-grid">
+          <h2 id="how-title" class="center">One question. Then the app decides.</h2>
+          <p class="center lead narrow">Choosing a technique is the last thing you want to do while tense. So softPause asks one thing and takes it from there.</p>
+          <div class="steps-grid steps-grid--four">
             <article class="step-card">
               <p class="step-dot">01</p>
-              <h3>Open</h3>
-              <p>No account. No setup spiral.</p>
+              <h3>One question</h3>
+              <p>How do you feel right now? Five levels, from Overwhelmed to Okay. Tap one.</p>
             </article>
             <article class="step-card">
               <p class="step-dot">02</p>
-              <h3>Breathe</h3>
-              <p>Inhale. Inhale a little more. Exhale slowly.</p>
+              <h3>The app picks the breath</h3>
+              <p>A few sighs, cyclic sighing or slow breathing, and for how long. A glowing orb and soft haptics pace it, so you can follow with your eyes closed. Stop any time.</p>
             </article>
             <article class="step-card">
               <p class="step-dot">03</p>
-              <h3>Return</h3>
-              <p>One breath, then back to your day.</p>
+              <h3>Before → after</h3>
+              <p>Afterwards, the same question on the same scale. Every pause gets an honest before → after.</p>
+            </article>
+            <article class="step-card">
+              <p class="step-dot">04</p>
+              <h3>A record that never punishes</h3>
+              <p>How many pauses so far, how many ended lower than they began. No days to keep up. Nothing on it can go down.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section" aria-labelledby="growth-title">
+      <section class="section" aria-labelledby="plans-title">
         <div class="container">
-          <h2 id="growth-title" class="center">Your growth, visualized</h2>
-          <p class="center lead narrow">A small plant grows with every pause. Its health reflects your mood, never judging, always growing.</p>
-          <div class="growth-grid" role="list">
-            <article class="growth-card" role="listitem">
-              <img src="/assets/plant-seed.svg" alt="Seed stage of the softPause growth plant" />
-              <h3>Seed</h3>
+          <h2 id="plans-title" class="center">What’s free, what’s softPause+</h2>
+          <p class="center lead narrow">Your first three pauses are full softPause+, and nothing is billed. After that, the part you need most stays free.</p>
+          <div class="plan-grid">
+            <article class="plan-card">
+              <h3>Free, always</h3>
+              <ul>
+                <li>SOS: three sighs, from any level, as often as you need</li>
+                <li><em>Not okay?</em> Help numbers where you are, one tap away</li>
+                <li>The before → after question, after every pause</li>
+                <li>Your last three pauses</li>
+              </ul>
             </article>
-            <article class="growth-card" role="listitem">
-              <img src="/assets/plant-seedling.svg" alt="Seedling stage of the softPause growth plant" />
-              <h3>Seedling</h3>
+            <article class="plan-card">
+              <h3>softPause+</h3>
+              <ul>
+                <li>Your breath, matched each time to how strong it is, the time of day and what works for you</li>
+                <li>Your full record, before and after</li>
+                <li>Your pattern: what helps you most, and when</li>
+              </ul>
+              <p class="plan-price">$29.99 a year, or $59.99 once.</p>
+              <p class="small-copy">US prices; the App Store shows the price where you are. Cancel a subscription any time in your App Store settings.</p>
             </article>
-            <article class="growth-card" role="listitem">
-              <img src="/assets/plant-flourishing.svg" alt="Flourishing stage of the softPause growth plant" />
-              <h3>Flourishing</h3>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" aria-labelledby="diff-title">
-        <div class="container">
-          <h2 id="diff-title" class="center">Built to reduce friction, not add it</h2>
-          <p class="center lead narrow">No pressure. No guilt. No content to scroll. Just a gentle pause when you need one.</p>
-          <div class="shot-grid" role="list">
-            <figure class="shot-card shot-card--onboarding" role="listitem">
-              <img src="/assets/screenshots/landing-onboarding-2026.png" alt="softPause onboarding screen with language and name setup" />
-            </figure>
-            <figure class="shot-card shot-card--breathing" role="listitem">
-              <img src="/assets/screenshots/landing-breathing-2026.png" alt="softPause guided breathing screen with the warm central orb" />
-            </figure>
-            <figure class="shot-card shot-card--history" role="listitem">
-              <img src="/assets/screenshots/landing-history-2026.png" alt="softPause history screen showing pause count and seven-day trend" />
-            </figure>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" aria-labelledby="brand-gallery-title">
-        <div class="container">
-          <h2 id="brand-gallery-title" class="center">Inside softPause</h2>
-          <p class="center lead narrow">Three glimpses — the plant that grows with you, the twenty-second breath, and your pauses gently counted.</p>
-          <div class="brand-grid" role="list">
-            <figure class="brand-card" role="listitem">
-              <img src="/assets/branded/home.png" alt="softPause home screen with lotus plant and Pause now button — Your growth, gently." />
-            </figure>
-            <figure class="brand-card" role="listitem">
-              <img src="/assets/branded/pause.png" alt="softPause guided breathing orb mid-cycle — One breath is enough." />
-            </figure>
-            <figure class="brand-card" role="listitem">
-              <img src="/assets/branded/history.png" alt="softPause history screen with pause count, streaks and mood trends — Every pause counts." />
-            </figure>
           </div>
         </div>
       </section>
 
       <section class="section section-soft" aria-labelledby="privacy-title">
         <div class="container narrow center">
-          <h2 id="privacy-title">Private by design</h2>
-          <p class="lead">softPause works without accounts. Your preferences stay on your device. Anonymous usage analytics help improve the app and can be turned off anytime in settings.</p>
-          <p class="lead">Track your mood trends over time and see whether breathing is helping. Your data stays on your device.</p>
-          <p><a class="text-link" href="/privacy/">Read the full privacy policy</a></p>
+          <h2 id="privacy-title">Yours, on this phone</h2>
+          <p class="lead">No account. Nothing to sign up for. Everything you record stays on this phone, and a breath never waits on the network: softPause works offline.</p>
+          <p class="lead">Delete everything with one tap: <em>Your data → Delete all data</em>.</p>
+          <p class="care-note"><a class="text-link" href="/privacy/">Read the privacy policy</a></p>
         </div>
       </section>
 
-      <section class="section" id="download" aria-labelledby="download-title">
+      <section class="section" aria-labelledby="care-title">
         <div class="container narrow center">
-          <h2 id="download-title">Download softPause</h2>
+          <h2 id="care-title">A breathing practice, not medical care.</h2>
+          <p class="lead">If you have trouble breathing, chest pain or feel faint, get urgent help now. In the app, <em>Not okay?</em> is always on Home, one tap away, with the emergency number for your phone’s region.</p>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="download" aria-labelledby="download-title">
+        <div class="container narrow center">
+          <h2 id="download-title">Breathe first.</h2>
           <div class="download-actions">
             <a class="btn btn-primary" href="https://apps.apple.com/app/id6760224574" target="_blank" rel="noreferrer">
               <span class="btn-icon" aria-hidden="true"></span>
               <span>Download on the App Store</span>
             </a>
           </div>
-          <p class="small-copy">Free. No account. Works offline.</p>
+          <p class="small-copy">Free to download. No account. Works offline. In English, French and Arabic.</p>
         </div>
       </section>
 
       <section class="section section-support" id="support" aria-labelledby="support-title">
         <div class="container narrow center">
-          <h2 id="support-title" class="support-title">If this helps you, you can support it.</h2>
-          <a class="text-link" href="https://buymeacoffee.com/velvet.osiris" target="_blank" rel="noreferrer">Buy me a coffee</a>
+          <h2 id="support-title" class="support-title">A purchase to restore, your data to delete, a question?</h2>
+          <p class="care-note"><a class="text-link" href="/support/">Support and FAQ</a></p>
         </div>
       </section>
     </main>
@@ -198,7 +202,8 @@
     <footer class="container footer">
       <a href="/blog/">Blog</a>
       <a href="/privacy/">Privacy</a>
-      <a href="/#support">Support</a>
+      <a href="/terms/">Terms</a>
+      <a href="/support/">Support</a>
       <a href="mailto:velvet.osiris@gmail.com" dir="ltr">velvet.osiris@gmail.com</a>
       <span dir="ltr">© <span id="year"></span> softPause</span>
     </footer>
