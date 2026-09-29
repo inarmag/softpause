@@ -19,6 +19,7 @@ fr/  ar/                     fr / ar landing pages
 privacy/                     en  privacy policy   (+ fr/privacy/, ar/privacy/)
 terms/                       en  terms of use     (+ fr/terms/,   ar/terms/)
 support/                     en  support + FAQ    (+ fr/support/, ar/support/)
+clinicians/                  en  for clinicians   (+ fr/clinicians/, ar/clinicians/)
 blog/                        en  blog index       (+ fr/blog/,    ar/blog/)
 blog/<slug>/                 en  blog post        (+ fr/...,      ar/...)
 breathing/ anxiety/ reset/   en  evergreen guides (+ fr/...,      ar/...)
@@ -26,7 +27,7 @@ styles.css                   shared styles for every page
 assets/sigh.js               the live sigh, shared by the three landing pages
 assets/                      plant SVGs and screenshots of the pre-v4 app (no page
                              uses them any more; kept, not deleted)
-sitemap.xml  robots.txt      all 30 URLs, with hreflang alternates
+sitemap.xml  robots.txt      all 33 URLs, with hreflang alternates
 experiments.json             the app's A/B test config (see below)
 CNAME                        custom domain for GitHub Pages
 ```
