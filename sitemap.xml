@@ -232,4 +232,25 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/reset/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/reset/"/>
   </url>
+  <url>
+    <loc>https://softpause.app/no-streaks/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/no-streaks/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/fr/no-streaks/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/no-streaks/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/ar/no-streaks/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/no-streaks/"/>
+  </url>
 </urlset>
