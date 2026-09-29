@@ -86,6 +86,27 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/support/"/>
   </url>
   <url>
+    <loc>https://softpause.app/clinicians/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/clinicians/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/clinicians/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/clinicians/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/clinicians/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/fr/clinicians/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/clinicians/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/clinicians/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/clinicians/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/clinicians/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/ar/clinicians/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/clinicians/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/clinicians/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/clinicians/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/clinicians/"/>
+  </url>
+  <url>
     <loc>https://softpause.app/blog/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/blog/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/blog/"/>
@@ -210,5 +231,26 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/reset/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/reset/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/reset/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/no-streaks/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/no-streaks/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/fr/no-streaks/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/no-streaks/"/>
+  </url>
+  <url>
+    <loc>https://softpause.app/ar/no-streaks/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://softpause.app/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://softpause.app/fr/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://softpause.app/ar/no-streaks/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://softpause.app/no-streaks/"/>
   </url>
 </urlset>
